@@ -22,16 +22,10 @@
 
     <dependencies>
         <!-- web的起步依赖springMVC -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+
 
         <!--spring-test-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
+
         <!-- web支持，SpringMVC， Servlet支持等 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -119,7 +113,7 @@
             </exclusions>
         </dependency>
 
-        <!-- sping对schedule的支持 -->
+        <!-- spring对schedule的支持 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
